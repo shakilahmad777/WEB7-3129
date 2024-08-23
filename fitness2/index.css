@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    width: 80%;
+    margin: 5% auto;
+    background: #222222;
+}
+.header {
+    width: 100vw;
+    height: 100vh;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-bar .logo {
+    color: #E6533C;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.nav-bar .action {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #323232;
+    border-radius: 2rem;
+}
+.nav-bar .action li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    margin: 0 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.nav-bar .action li:first-child {
+    background: #E6533C;
+    padding: 8px;
+    margin-left: 3px;
+    border-radius: 2rem;
+}
+/* nav bar section end */
+
+.bannar {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.bannar .bannar-left {
+    padding-top: 5.5rem;
+}
+.bannar .bannar-left p {
+    margin: 1.5rem 0;
+    color: #999999;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.button {
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.button-denger {
+    color: #ffff;
+    background: #E6533C;
+    margin-right: 10px;
+}
+
+
+.bannar .bannar-right {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/Images\ 2.png);
+    background-position: 20px 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bannar-right {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.bannar-right .tutorial {
+    display: flex;
+    background-color: #303030;
+    padding: 1rem;
+}
+.bannar-right .tutorial .circle-red {
+    width: 50px;
+    height: 50px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
