@@ -48,7 +48,8 @@ body {
     margin-left: 3px;
     border-radius: 20px;
 }
-/* nav bar section end */
+
+                        /* nav bar section end */
 
 .bannar {
     display: grid;
@@ -117,8 +118,9 @@ body {
     font-size: 2rem;
     overflow: hidden;
 }
-.bannar-right h2 {
+.bannar-right h3 {
     color: white;
+    font-size: 1.5rem;
 }
 .bannar-right p {
     font-size: 14px;
@@ -133,4 +135,34 @@ body {
 }
 .five-hund {
     font-size: 2rem !important;
+}
+                            /* banner section end */
+
+                    /* main section start */
+.highlight-content {
+    margin-top: 5rem;
+    padding: 1rem;
+    border-bottom: 2px solid #E6533C;
+}
+.change-habits {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.your-habits {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+    width: 700px;
+    height: 120px;
+}
+.your-habits h2 {
+    font-size: 48px;
+    color: #ffff;
+}
+.your-habits p {
+    color: rgba(255, 255, 255, 0.50);
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
