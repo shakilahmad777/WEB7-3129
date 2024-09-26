@@ -1,6 +1,5 @@
 import NavLilnk from '../NavLink/NavLilnk';
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import './NavBar.css'
 import { useState } from 'react';
 
 const NavBar = () => {
@@ -15,14 +14,14 @@ const NavBar = () => {
       ];
       
     return (
-        <nav className='bg-orange-500 p-6 text-black'>
+        <nav className='bg-orange-500 px-6 py-3 text-black'>
             <div className='text-2xl md:hidden'  onClick={() => setOpen(!open)}>
                 {
                     open === true ? <IoMdClose /> : <IoMdMenu />
                 }
             </div>
             <ul className={`md:flex bg-orange-500 absolute duration-1000 
-                ${open ? 'top-16' : '-top-60'} md:static -left-0`}>
+                ${open ? 'top-15' : '-top-60'} md:static left-0 z-10`}>
                 {
                     routes.map(route => <NavLilnk  key={route.id} route={route}></NavLilnk>)
                 }
