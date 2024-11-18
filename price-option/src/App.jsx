@@ -15,8 +15,8 @@ function App() {
       <NavBar></NavBar>
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
-      {/* <Phones></Phones> */}
       <Mobile></Mobile>
+      <Phones></Phones>
       
     </div>
   )
