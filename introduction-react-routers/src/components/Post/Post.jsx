@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const postStyle = {
     border: '2px solid yellow',
@@ -12,6 +13,7 @@ const Post = ({post}) => {
         <div style={postStyle}>
             <h3>Title: {title}</h3>
             <p>{body}</p>
+            <Link to={`/post/${id}`}><button>Show Details</button></Link>
         </div>
     );
 };
