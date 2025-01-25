@@ -1,7 +1,13 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 
 const PostDetails = () => {
     const post = useLoaderData();
+    const goBack = useNavigate();
+
+    const handleGoBack = () => {
+        goBack(-1)
+    }
+
     const {id, title, body} = post;
     return (
         <div>
@@ -11,7 +17,8 @@ const PostDetails = () => {
                     </p>
             <small>
                 {body}
-            </small>
+            </small><br/>
+            <button onClick={handleGoBack}>GO Back</button>
         </div>
     );
 };
