@@ -26,7 +26,7 @@ const HookForm = () => {
                 
                 <input type="text" {...nameState} name="name" /> <br />
                 <input type="email" {...emailState} name="email" /> <br />
-                <input type="pass" {...passState} name="pass" /> <br />
+                <input type="password" {...passState} name="password" /> <br />
                 <input type="submit" value="Submit" />
             </form>
         </div>
