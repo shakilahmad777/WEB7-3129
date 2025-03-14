@@ -11,7 +11,7 @@ const HookForm = () => {
 
     const onSubmit = (e) =>{
         // console.log(name, email, pass) first option
-        console.log('name', nameState.value, 'email', emailState.value, 'password', passState.value)
+        console.log('Name', nameState.value, 'Email', emailState.value, 'Password', passState.value)
         e.preventDefault();
     }
     return (
