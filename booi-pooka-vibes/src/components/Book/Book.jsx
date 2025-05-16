@@ -3,7 +3,7 @@ import ratingImg from "../../../public/Frame.svg";
 
 const Book = ({book}) => {
 
-    const {bookId,bookName, image, author, category, tags, rating} = book;
+    const {bookId,bookName, image, author, category, tags, rating, totalPages} = book;
 
     return (
         <Link to={`book/${bookId}`}>
@@ -25,6 +25,7 @@ const Book = ({book}) => {
                         <p className="border-b-2 border-dotted pb-3.5">By : {author}</p>
                         <div className="flex justify-between">
                             <p>{category}</p>
+                            <p>Page: {totalPages}</p>
                             <p className="flex gap-2 justify-end">{rating} <img src ={ratingImg} className="h-5" alt="rating star" /> </p>
                         </div>
                     </div>
