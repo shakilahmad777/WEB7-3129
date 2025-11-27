@@ -1,0 +1,58 @@
+[
+    {
+        "membershipType": "Standard Membership",
+        "price": "$30.00",
+        "billingCycle": "monthly",
+        "benefits": [
+            "Access to gym equipment",
+            "Group fitness classes"
+        ]
+    },
+    {
+        "membershipType": "Premium Membership",
+        "price": "$50.00",
+        "billingCycle": "monthly",
+        "benefits": [
+            "All Standard Membership benefits",
+            "Access to exclusive facilities",
+            "Free personal training session each month"
+        ]
+    },
+    {
+        "membershipType": "Annual Membership",
+        "price": "$300.00",
+        "billingCycle": "yearly",
+        "benefits": [
+            "All Premium Membership benefits",
+            "Two free personal training sessions"
+        ]
+    },
+    {
+        "membershipType": "Single Session",
+        "price": "$60.00",
+        "duration": "1 hour"
+    },
+    {
+        "membershipType": "Package of 5 Sessions",
+        "price": "$275.00",
+        "duration": "1 hour each"
+    },
+    {
+        "membershipType": "Yoga Class",
+        "price": "$15.00",
+        "duration": "1 hour",
+        "packageOptions": {
+            "singleClass": 15.00,
+            "10ClassPackage": 130.00
+        }
+    },
+    {
+        "membershipType ": "HIIT Class",
+        "price": "$20.00",
+        "duration": "1 hour",
+        "packageOptions": {
+            "singleClass": 20.00,
+            "10ClassPackage": 180.00
+        }
+    }
+]

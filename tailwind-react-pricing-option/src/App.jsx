@@ -1,31 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Suspense, useState } from 'react'
 import './App.css'
+import NavBar from './components/NavBar/NavBar'
+import PricingOption from './components/PricingOption/PricingOption'
+
+const pricingPromise = fetch('pricingData.json').then(res => res.json());
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <div className="card bg-base-100 w-96 shadow-sm">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Card Title</h2>
-          <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
-        </div>
-      </div>
+      <header>
+        <NavBar></NavBar>
+      </header>
+        <main>
+          <Suspense>
+            <PricingOption pricingPromise={pricingPromise}></PricingOption>
+          </Suspense>
+        </main>
+      <footer>
+
+      </footer>
     </>
   )
 }
