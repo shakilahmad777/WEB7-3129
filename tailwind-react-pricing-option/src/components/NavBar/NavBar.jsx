@@ -15,15 +15,15 @@ export default function NavBar() {
     const links = navigationData.map(route => <Link key={route.id} route={route}></Link>)
   return (
     <div>
-        <nav className="flex justify-between mx-10">
-            <span onClick={() => setOpen(!open)}>
+        <nav className="flex justify-between text-amber-50">
+            <span onClick={() => setOpen(!open)} className="md:hidden">
                 
                 {
-                    open ? <X className="md:hidden"></X> : 
-                    <Menu className="md:hidden"></Menu>
+                    open ? <X className=""></X> : 
+                    <Menu className=""></Menu>
                 }
                 {/* this links md down size */}
-                <ul className={`md:hidden absolute ${open ? 'top-8' : '-top-64'} duration-1000 bg-amber-600 p-3 rounded`}>
+                <ul className={`md:hidden absolute ${open ? 'top-15' : '-top-64'} duration-1000 bg-amber-600 rounded`}>
                     {
                         links
                     }
@@ -37,7 +37,7 @@ export default function NavBar() {
                     links
                 }
             </ul>
-            <button>Sign In</button>
+            <button className="hover:bg-amber-500 px-3 rounded">Sign In</button>
         </nav>
     </div>
   )
