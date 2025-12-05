@@ -37,7 +37,7 @@ export default function NavBar() {
                     links
                 }
             </ul>
-            <button className="hover:bg-amber-500 px-3 rounded">Sign In</button>
+            <button className="hover:bg-amber-500 box-border overflow-hidden hover:text-black hover:font-bold px-3 rounded duration-500">Sign In</button>
         </nav>
     </div>
   )

@@ -19,6 +19,9 @@ export default function PricingCart({pricing}) {
               features.map((featrue, index) => <PricingFeatures key={index} feature={featrue}></PricingFeatures>)
             }
         </div>
+        <div className='text-center'>
+           <button type='button' className='bg-amber-900 py-3 px-6 mt-3 rounded'>Book Now</button>
+        </div>
     </div>
   )
 }

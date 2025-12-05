@@ -2,11 +2,11 @@ import { Suspense, useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import PricingOption from './components/PricingOption/PricingOption'
+import ExampleChart from './components/ExampleChart/ExampleChart';
 
 const pricingPromise = fetch('pricingData.json').then(res => res.json());
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,7 +23,7 @@ function App() {
           </Suspense>
         </main>
       <footer>
-
+            <ExampleChart></ExampleChart>
       </footer>
     </>
   )
