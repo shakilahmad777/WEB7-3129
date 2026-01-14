@@ -1,0 +1,8 @@
+.left-asaid {
+    display: flex;
+    flex-direction:column;
+}
+.left-asaid a {
+    text-decoration: none;
+    color: black;
+}

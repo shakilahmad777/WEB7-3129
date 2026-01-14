@@ -1,0 +1,8 @@
+.gallary-items {
+    /* width: calc(25% - 20px); */
+    transition: all .5s ease-in-out;
+}
+
+.gallary-items:hover {
+    transform: scale(1.1);
+  }

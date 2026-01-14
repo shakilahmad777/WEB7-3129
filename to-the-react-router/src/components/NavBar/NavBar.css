@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu h2 {
+  margin: 0;
+}
+.my {
+  color: #132440;
+  position: relative;
+}
+
+.bar {
+  color: #16476A;
+}
+.menu .link {
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+}
+.menu .link a {
+  text-decoration: none;
+  color: black;
+}
+.menu a.active {
+  color: rgba(118, 53, 172, 0.726);
+  text-decoration: underline crimson;
+}

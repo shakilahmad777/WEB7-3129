@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Xiaomi 20000mAh Power Bank",
+    "brand": "Xiaomi",
+    "price": 3200,
+    "stock": 25,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/xiaomi-power-bank-20000mah.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Anker PowerCore 10000",
+    "brand": "Anker",
+    "price": 4200,
+    "stock": 18,
+    "rating": 4.6,
+    "imageUrl": "https://example.com/images/anker-powercore-10000.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Samsung 10000mAh Power Bank",
+    "brand": "Samsung",
+    "price": 3800,
+    "stock": 20,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/samsung-power-bank-10000mah.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Realme 20000mAh Power Bank",
+    "brand": "Realme",
+    "price": 3400,
+    "stock": 22,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/realme-power-bank-20000mah.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Baseus 30000mAh Power Bank",
+    "brand": "Baseus",
+    "price": 5200,
+    "stock": 12,
+    "rating": 4.6,
+    "imageUrl": "https://example.com/images/baseus-power-bank-30000mah.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Oraimo 10000mAh Power Bank",
+    "brand": "Oraimo",
+    "price": 2600,
+    "stock": 28,
+    "rating": 4.3,
+    "imageUrl": "https://example.com/images/oraimo-power-bank-10000mah.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mi Pocket Power Bank Pro",
+    "brand": "Xiaomi",
+    "price": 4500,
+    "stock": 14,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/mi-pocket-power-bank-pro.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Philips 10000mAh Power Bank",
+    "brand": "Philips",
+    "price": 4000,
+    "stock": 16,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/philips-power-bank-10000mah.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ambrane 20000mAh Power Bank",
+    "brand": "Ambrane",
+    "price": 3000,
+    "stock": 24,
+    "rating": 4.2,
+    "imageUrl": "https://example.com/images/ambrane-power-bank-20000mah.jpg"
+  }
+]

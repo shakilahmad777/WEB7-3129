@@ -1,0 +1,21 @@
+:root {
+    --primary-bg-color: #DDA0DD;
+    --primary-contain-bg-color: #EE82EE;
+    --primary-btn-color: #FF00FF;
+    --primary-text-color: #BA55D3;
+}
+body {
+  background: var(--primary-bg-color);
+  overflow: hidden;
+}
+.container {
+    background-color: var(--primary-contain-bg-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 5px;
+}
+.asaid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+}

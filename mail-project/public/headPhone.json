@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "price": 38000,
+    "stock": 12,
+    "rating": 4.8,
+    "imageUrl": "https://example.com/images/sony-wh-1000xm5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "brand": "Apple",
+    "price": 32000,
+    "stock": 10,
+    "rating": 4.7,
+    "imageUrl": "https://example.com/images/airpods-pro-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "JBL Tune 760NC",
+    "brand": "JBL",
+    "price": 14000,
+    "stock": 18,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/jbl-tune-760nc.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bose QuietComfort 45",
+    "brand": "Bose",
+    "price": 36000,
+    "stock": 7,
+    "rating": 4.7,
+    "imageUrl": "https://example.com/images/bose-qc-45.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy Buds 2",
+    "brand": "Samsung",
+    "price": 18000,
+    "stock": 15,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/samsung-galaxy-buds-2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Realme Buds Air 5",
+    "brand": "Realme",
+    "price": 8500,
+    "stock": 20,
+    "rating": 4.3,
+    "imageUrl": "https://example.com/images/realme-buds-air-5.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Anker Soundcore Life Q30",
+    "brand": "Anker",
+    "price": 12000,
+    "stock": 16,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/soundcore-life-q30.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Boat Rockerz 550",
+    "brand": "Boat",
+    "price": 6500,
+    "stock": 22,
+    "rating": 4.2,
+    "imageUrl": "https://example.com/images/boat-rockerz-550.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Skullcandy Crusher Evo",
+    "brand": "Skullcandy",
+    "price": 20000,
+    "stock": 9,
+    "rating": 4.6,
+    "imageUrl": "https://example.com/images/skullcandy-crusher-evo.jpg"
+  }
+]

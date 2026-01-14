@@ -1,0 +1,11 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-bg-color: #005461;
+  --primary-linear-bg-color: linear-gradient(to right, #ff0099, #59116f);
+  --primary-btn-color: #00b7b5;
+}
+
+body {
+  margin: 0;
+  background: var(--primary-bg-color);
+}

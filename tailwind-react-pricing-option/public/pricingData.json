@@ -1,0 +1,93 @@
+[
+ {
+ "id": 1,
+ "membershipType": "Standard Membership",
+ "price": "$30.00/month",
+ "features": [
+   "Standard access to gym resources.",
+   "Access to locker facilities.",
+   "Monthly fitness assessment.",
+   "Discounts on personal training.",
+   "Participation in member events."
+ ],
+ "description": "A basic membership allowing access to gym equipment and group fitness classes."
+ },
+ {
+ "id": 2,
+ "membershipType": "Premium Membership",
+ "price": "$50.00/month",
+ "features": [
+   "Includes exclusive facilities and training.",
+   "Priority booking for classes.",
+   "Complimentary guest passes.",
+   "Access to wellness seminars.",
+   "Customized workout plans."
+ ],
+ "description": "An enhanced membership that includes all standard benefits and additional exclusive access and personal training."
+ },
+ {
+ "id": 3,
+ "membershipType": "Annual Membership",
+ "price": "$300.00/month",
+ "features": [
+   "Best value for long-term commitment.",
+   "Early access to new classes.",
+   "Quarterly health workshops.",
+   "Free branded merchandise.",
+   "Extended hours during holidays."
+ ],
+ "description": "A yearly membership providing full premium benefits plus additional personal training sessions."
+ },
+ {
+ "id": 4,
+ "membershipType": "Single Session",
+ "price": "$60.00/month",
+ "features": [
+   "Ideal for trying out the gym.",
+   "No long-term commitment.",
+   "Flexibility to book anytime.",
+   "Access to all equipment available.",
+   "Opportunity to meet trainers."
+ ],
+ "description": "One-time session offering full access for one hour."
+ },
+ {
+ "id": 5,
+ "membershipType": "Package of 5 Sessions",
+ "price": "$275.00/month",
+ "features": [
+   "Cost-effective for frequent visitors.",
+   "Flexibility to schedule sessions.",
+   "Access to trainers for advice.",
+   "Increased motivation with guidance.",
+   "Options for different types of training."
+ ],
+ "description": "A package including five one-hour sessions, ideal for regular users."
+ },
+ {
+ "id": 6,
+ "membershipType": "Yoga Class",
+ "price": "$15.00/month",
+ "features": [
+   "Focus on flexibility and mindfulness.",
+   "Guidance from certified instructors.",
+   "Variety of yoga styles available.",
+   "Community-focused environment.",
+   "Access to yoga workshops."
+ ],
+ "description": "Join our yoga class with options for single or discounted ten-class packages."
+ },
+ {
+ "id": 7,
+ "membershipType": "HIIT Class",
+ "price": "$20.00/month",
+ "features": [
+   "High-energy workout for maximum calorie burn.",
+   "Variety of workouts each session.",
+   "Access to trained fitness coaches.",
+   "Encouragement from peer group.",
+   "Suitable for all fitness levels."
+ ],
+ "description": "High-Intensity Interval Training classes available individually or in ten-class packages."
+ }
+]

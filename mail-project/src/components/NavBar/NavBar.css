@@ -1,0 +1,15 @@
+h2 {
+    /* filter:drop-shadow(16px 7px 4px #59116f) */
+    font-weight: 700;
+    color: #59116f;
+}
+
+.linear-bg {
+    background: var(--primary-linear-bg-color);
+}
+
+h2 ul {
+    background: var(--primary-linear-bg-color);
+    padding: 10px;
+    color: white;
+}

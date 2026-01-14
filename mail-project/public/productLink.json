@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "path": "/laptop"
+  },
+  {
+    "id": 2,
+    "name": "Mobiles",
+    "path": "/mobiles"
+  },
+  {
+    "id": 3,
+    "name": "Watch",
+    "path": "/watch"
+  },
+  {
+    "id": 4,
+    "name": "Power Bank",
+    "path": "/powerbank"
+  },
+  {
+    "id": 5,
+    "name": "Head Phone",
+    "path": "/headphone"
+  }
+]

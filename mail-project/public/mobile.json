@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S22",
+    "brand": "Samsung",
+    "price": 75000,
+    "stock": 15,
+    "rating": 4.6,
+    "imageUrl": "https://example.com/images/samsung-galaxy-s22.jpg"
+  },
+  {
+    "id": 2,
+    "name": "iPhone 13",
+    "brand": "Apple",
+    "price": 98000,
+    "stock": 8,
+    "rating": 4.7,
+    "imageUrl": "https://example.com/images/iphone-13.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Redmi Note 12",
+    "brand": "Xiaomi",
+    "price": 28000,
+    "stock": 20,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/redmi-note-12.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Realme Narzo 50",
+    "brand": "Realme",
+    "price": 22000,
+    "stock": 18,
+    "rating": 4.3,
+    "imageUrl": "https://example.com/images/realme-narzo-50.jpg"
+  },
+  {
+    "id": 5,
+    "name": "OnePlus 10R",
+    "brand": "OnePlus",
+    "price": 52000,
+    "stock": 10,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/oneplus-10r.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Vivo V25",
+    "brand": "Vivo",
+    "price": 35000,
+    "stock": 14,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/vivo-v25.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Oppo Reno 8",
+    "brand": "Oppo",
+    "price": 42000,
+    "stock": 12,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/oppo-reno-8.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy A14",
+    "brand": "Samsung",
+    "price": 18000,
+    "stock": 25,
+    "rating": 4.2,
+    "imageUrl": "https://example.com/images/samsung-galaxy-a14.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Infinix Zero 5G",
+    "brand": "Infinix",
+    "price": 26000,
+    "stock": 16,
+    "rating": 4.3,
+    "imageUrl": "https://example.com/images/infinix-zero-5g.jpg"
+  }
+]

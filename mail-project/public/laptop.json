@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "HP Pavilion 15",
+    "brand": "HP",
+    "price": 85000,
+    "stock": 10,
+    "rating": 4.5,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvzIHWdw185EfY2qxADqcYMjgiknZegKAbwQ&s"
+  },
+  {
+    "id": 2,
+    "name": "Dell Inspiron 14",
+    "brand": "Dell",
+    "price": 78000,
+    "stock": 8,
+    "rating": 4.4,
+    "imageUrl": "https://m.media-amazon.com/images/I/71UG44-NazL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lenovo IdeaPad 3",
+    "brand": "Lenovo",
+    "price": 72000,
+    "stock": 12,
+    "rating": 4.3,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZqLmt-xkfh2RLriszOveq1W1CMzKGnJdXA&s"
+  },
+  {
+    "id": 4,
+    "name": "Asus VivoBook 15",
+    "brand": "Asus",
+    "price": 80000,
+    "stock": 9,
+    "rating": 4.6,
+    "imageUrl": "https://www.pqs.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x1504va-nj260w0/vivobook-15-x1504va-nj260w0-01-500x500.png"
+  },
+  {
+    "id": 5,
+    "name": "Acer Aspire 5",
+    "brand": "Acer",
+    "price": 75000,
+    "stock": 11,
+    "rating": 4.4,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdE8txQSJPh8UAFqMgWv6BF4p_l4dMcKuZA&s"
+  },
+  {
+    "id": 6,
+    "name": "Apple MacBook Air M1",
+    "brand": "Apple",
+    "price": 105000,
+    "stock": 6,
+    "rating": 4.8,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREl3XL5J3qW5PXjsLUKA_I4laE8dQuzODXOw&s"
+  },
+  {
+    "id": 7,
+    "name": "MSI Modern 14",
+    "brand": "MSI",
+    "price": 88000,
+    "stock": 7,
+    "rating": 4.5,
+    "imageUrl": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-15-f13mg-urban-silver/modern-15-f13mg-urban-silver-001-500x500.webp"
+  },
+  {
+    "id": 8,
+    "name": "Huawei MateBook D15",
+    "brand": "Huawei",
+    "price": 77000,
+    "stock": 10,
+    "rating": 4.4,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHU0bbDfy5fB6_swT4JdceSHeuaszUWOQ1KA&s"
+  },
+  {
+    "id": 9,
+    "name": "Samsung Galaxy Book 2",
+    "brand": "Samsung",
+    "price": 83000,
+    "stock": 8,
+    "rating": 4.5,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY6oVN7biW-HCJA8y6zfyif7EC1GjWDmsig&s"
+  }
+]

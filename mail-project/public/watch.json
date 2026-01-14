@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Apple Watch Series 8",
+    "brand": "Apple",
+    "price": 42000,
+    "stock": 7,
+    "rating": 4.7,
+    "imageUrl": "https://example.com/images/apple-watch-series-8.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy Watch 5",
+    "brand": "Samsung",
+    "price": 38000,
+    "stock": 9,
+    "rating": 4.6,
+    "imageUrl": "https://example.com/images/samsung-galaxy-watch-5.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Mi Watch",
+    "brand": "Xiaomi",
+    "price": 12000,
+    "stock": 15,
+    "rating": 4.4,
+    "imageUrl": "https://example.com/images/xiaomi-mi-watch.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Amazfit GTS 4",
+    "brand": "Amazfit",
+    "price": 18000,
+    "stock": 11,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/amazfit-gts-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Realme Watch 3 Pro",
+    "brand": "Realme",
+    "price": 9500,
+    "stock": 18,
+    "rating": 4.3,
+    "imageUrl": "https://example.com/images/realme-watch-3-pro.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Huawei Watch GT 3",
+    "brand": "Huawei",
+    "price": 25000,
+    "stock": 8,
+    "rating": 4.5,
+    "imageUrl": "https://example.com/images/huawei-watch-gt-3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Noise ColorFit Pro 4",
+    "brand": "Noise",
+    "price": 7000,
+    "stock": 22,
+    "rating": 4.2,
+    "imageUrl": "https://example.com/images/noise-colorfit-pro-4.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fitbit Versa 4",
+    "brand": "Fitbit",
+    "price": 30000,
+    "stock": 6,
+    "rating": 4.6,
+    "imageUrl": "https://example.com/images/fitbit-versa-4.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Garmin Venu Sq",
+    "brand": "Garmin",
+    "price": 28000,
+    "stock": 5,
+    "rating": 4.7,
+    "imageUrl": "https://example.com/images/garmin-venu-sq.jpg"
+  }
+]
