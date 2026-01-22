@@ -6,7 +6,7 @@
     "price": 42000,
     "stock": 7,
     "rating": 4.7,
-    "imageUrl": "https://example.com/images/apple-watch-series-8.jpg"
+    "imageUrl": "https://istockbd.com/cdn/shop/products/Apple-Watch-Series-8-Midnight-price-in-Bangladesh.jpg?v=1755771563&width=700"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "price": 38000,
     "stock": 9,
     "rating": 4.6,
-    "imageUrl": "https://example.com/images/samsung-galaxy-watch-5.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtNko06vrt8BUXxsyd0_EUUZeXQi-oDQ_2Q&s"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": 12000,
     "stock": 15,
     "rating": 4.4,
-    "imageUrl": "https://example.com/images/xiaomi-mi-watch.jpg"
+    "imageUrl": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Accessories/Xiaomi/Mi%20Watch%20Lite/Watch%20Lite%20(2)-800x800.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "price": 18000,
     "stock": 11,
     "rating": 4.5,
-    "imageUrl": "https://example.com/images/amazfit-gts-4.jpg"
+    "imageUrl": "https://gadgetstudiobd.com/wp-content/uploads/2022/09/61lmmx6h63L._AC_SL1500_.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": 9500,
     "stock": 18,
     "rating": 4.3,
-    "imageUrl": "https://example.com/images/realme-watch-3-pro.jpg"
+    "imageUrl": "https://cdn.shopz.com.bd/2023/01/realme-watch-3-Pro-Smart-Watch.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": 25000,
     "stock": 8,
     "rating": 4.5,
-    "imageUrl": "https://example.com/images/huawei-watch-gt-3.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpV302I7xEeich91Ph_4dxXtuCtRARg0ZNiw&s"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "price": 7000,
     "stock": 22,
     "rating": 4.2,
-    "imageUrl": "https://example.com/images/noise-colorfit-pro-4.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhgcQbK-GHLOLn3zmp3ZKD3ehO4QVUOn1zg&s"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "price": 30000,
     "stock": 6,
     "rating": 4.6,
-    "imageUrl": "https://example.com/images/fitbit-versa-4.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZj58o-2tkPkjSSNieZb3TigU_LA6Gu_rKxA&s"
   },
   {
     "id": 9,
@@ -78,6 +78,6 @@
     "price": 28000,
     "stock": 5,
     "rating": 4.7,
-    "imageUrl": "https://example.com/images/garmin-venu-sq.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjAmQKbciooPXhiPijrTH3cGTk4nOVvptXw&s"
   }
 ]

@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --primary-bg-color: #005461;
+  --primary-bg-color: #010313;
   --primary-linear-bg-color: linear-gradient(to right, #ff0099, #59116f);
-  --primary-btn-color: #00b7b5;
+  --primary-btn-color: #0f172a;
+  --primary-color: #ffffff;
 }
 
 body {
   margin: 0;
   background: var(--primary-bg-color);
+  color: var(--primary-color);
+  font-weight: 600;
 }

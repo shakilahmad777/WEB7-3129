@@ -2,7 +2,47 @@
     /* width: calc(25% - 20px); */
     transition: all .5s ease-in-out;
 }
-
 .gallary-items:hover {
     transform: scale(1.1);
-  }
+}
+
+.conik-rel {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.conik-rel::before {
+    content: '';
+    position: absolute;
+    inset: -60%;
+    background: conic-gradient(
+        from 0deg,
+        #EE0295 0deg 144deg,   /* 40% of 360° = 144deg */
+        transparent 144deg 360deg
+    );
+    animation: spin 1.5s linear infinite;
+}
+.conik-rel::before{
+    filter: blur(1.5rem);
+    /* opacity: 0.5; */
+}
+
+.conik {
+    position: relative;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn {
+    background: #0f172a;
+    padding: 10px 15px;
+    border-radius: 0.3rem;
+}
+/* ================================== */
+

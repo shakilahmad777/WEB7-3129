@@ -18,6 +18,7 @@ import PowerBank from './components/PowerBank/PowerBank';
 import HeadPhone from './components/HeadPhone/HeadPhone';
 import Users2 from "./components/Users2/Users2.jsx";
 import UsersDetails from "./components/UsersDetails/UsersDetails.jsx";
+import LaptopDetails from "./components/Laptop/LaptopDetails";
 
 
 const usersPromise = fetch('https://jsonplaceholder.typicode.com/users').then(res => res.json());
@@ -78,12 +79,18 @@ const router = createBrowserRouter([
                 Component: Laptop
             },
             {
+                path: '/laptop/:laptopdetails',
+                loader: ({params}) => fetch(`./laptop.json/${params.laptopdetails}`),
+                Component: LaptopDetails
+            },
+            {
                 path: '/mobiles',
                 loader: () => fetch(`./mobile.json`),
                 Component: Mobiles
             },
             {
                 path: '/watch',
+                loader: () => fetch('./watch.json'),
                 Component: Watch
             },
             {

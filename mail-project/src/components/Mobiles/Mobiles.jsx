@@ -6,7 +6,7 @@ export default function Mobiles() {
   const mobiles = useLoaderData()
   console.log("khfgsdlkfkdjh",mobiles)
   return (
-    <div>
+    <div className='grid md:grid-cols-3 gap-2.5'>
       {
         mobiles.map(mobile => <Mobile key={mobile.id} mobile={mobile}></Mobile>)
       }

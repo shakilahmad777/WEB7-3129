@@ -6,7 +6,7 @@
     "price": 75000,
     "stock": 15,
     "rating": 4.6,
-    "imageUrl": "https://example.com/images/samsung-galaxy-s22.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkskpsPqXTdQIsZ9DmEuXjPnF3p5hbrmA-Wg&s"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "price": 98000,
     "stock": 8,
     "rating": 4.7,
-    "imageUrl": "https://example.com/images/iphone-13.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75U-cbD7IdLMOx-cGdW_jrTxoIK5AJGN8Kg&s"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": 28000,
     "stock": 20,
     "rating": 4.4,
-    "imageUrl": "https://example.com/images/redmi-note-12.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvEpxSxKg1HpFP6Ym0z2Dxm41dFhRCPK1J8g&s"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "price": 22000,
     "stock": 18,
     "rating": 4.3,
-    "imageUrl": "https://example.com/images/realme-narzo-50.jpg"
+    "imageUrl": "https://brotherselectronicsbd.com/image/cache/catalog/demo/product/Realme/Narzo%2050/Realme-Narzo-50-Speed-Blue-Price-in-Bangladesh-800x800.jpeg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": 52000,
     "stock": 10,
     "rating": 4.5,
-    "imageUrl": "https://example.com/images/oneplus-10r.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3H04xjxjrhb3ZJfQzJasKjo8kmuJ5ML33g&s"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": 35000,
     "stock": 14,
     "rating": 4.4,
-    "imageUrl": "https://example.com/images/vivo-v25.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC_EtFzKYezn46dgKDzc-qblyv_DMO3ZVycw&s"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "price": 42000,
     "stock": 12,
     "rating": 4.4,
-    "imageUrl": "https://example.com/images/oppo-reno-8.jpg"
+    "imageUrl": "https://www.dxomark.com/wp-content/uploads/medias/post-122935/Oppo-Reno8-5G_featured-image-packshot-review-Recovered.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "price": 18000,
     "stock": 25,
     "rating": 4.2,
-    "imageUrl": "https://example.com/images/samsung-galaxy-a14.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlddG9syYbvtuFP1bsDHrgieaFjVhBixu-bQ&s"
   },
   {
     "id": 9,
@@ -78,6 +78,6 @@
     "price": 26000,
     "stock": 16,
     "rating": 4.3,
-    "imageUrl": "https://example.com/images/infinix-zero-5g.jpg"
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScFDh3Mn__LQKqNTHh5XqRYUA3a6EjRvjLFg&s"
   }
 ]
