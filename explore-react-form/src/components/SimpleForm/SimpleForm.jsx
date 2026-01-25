@@ -3,7 +3,7 @@ import React from 'react'
 export default function SimpleForm() {
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log('hello hanibani', e.target.name.value)
+        console.log('hello hanibani', e.target.name.value, '&', e.target.email.value)
     }
   return (
     <div>
