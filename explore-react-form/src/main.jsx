@@ -8,6 +8,10 @@ import {
 } from 'react-router-dom';
 import SimpleForm from './components/SimpleForm/SimpleForm';
 import ActionForm from './components/ActionForm/ActionForm';
+import ControlledForm from './components/ControlledForm/ControlledForm';
+import UnControlledField from './components/UnControlledField/UnControlledField';
+import HookForm from './components/HookForm/HookForm';
+import ProductManagement from './components/ProductManagement/ProductManagement';
 
 const route = createBrowserRouter([
 	{
@@ -21,6 +25,22 @@ const route = createBrowserRouter([
 			{
 				path: '/action',
 				Component: ActionForm
+			},
+			{
+				path: '/controlled',
+				Component: ControlledForm
+			}, 
+			{
+				path: '/uncontrolled',
+				Component: UnControlledField
+			},
+			{
+				path: '/hookform',
+				Component: HookForm
+			},
+			{
+				path: '/productform',
+				Component: ProductManagement
 			}
 		]
 	},
