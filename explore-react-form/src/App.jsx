@@ -25,7 +25,7 @@ function App() {
                 <NavLink to={'/hookform'}>Hook Form</NavLink>
                 <NavLink to={'/productform'}>Product Form</NavLink>
             </nav>
-            <h1 className='text-5xl py-5 my-5 text-amber-400'>Explore React Form</h1>
+            <h1 className='text-2xl sm:text-5xl py-5 my-5 text-amber-400'>Explore React Form</h1>
             <Outlet></Outlet>
         </>
     )

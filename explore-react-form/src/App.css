@@ -9,6 +9,19 @@
 	outline: none;
 }
 
+/* this is nav bar style start */
+
+.active {
+	border: 1px solid #FFB900;
+	border-radius: 5px;
+	padding: 0 10px;
+	/* transition: all 0.5s ease-in-out; */
+}
+
+
+
+/* this is form input style start */
+
 input {
 	outline: none;
 	border: 1px solid #FFB900;
@@ -16,6 +29,7 @@ input {
 	border-radius: 0.5rem;
 	padding: 5px;
 }
+
 input::placeholder {
 	text-align: center;
 }
@@ -31,7 +45,38 @@ input:focus {
 	padding: 10px 20px;
 	margin-top: 30px;
 }
+
 /* :root {
 	--color-amber-400: var(--color-amber-400);
 	--color-amber-500: var(--color-amber-500);
 } */
+
+/* form content effect */
+
+
+.form-content-effect {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.form-content-effect::before {
+    content: '';
+    position: absolute;
+    inset: -50%;
+    background: conic-gradient(
+        from 0deg,
+        #EE0295 0deg 144deg,   
+        transparent 144deg 360deg
+    );
+    animation: spin 1.5s linear infinite;
+}
+.form-content-effect::before{
+    filter: blur(1.5rem);
+    /* opacity: 0.5; */
+}
+
+.form-content {
+    position: relative;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
