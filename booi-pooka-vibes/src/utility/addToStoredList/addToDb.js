@@ -14,13 +14,13 @@ const getStoredReadList = () => {
 // get wish list btn setItem by localstorege
 const getStoredWishList = () => {
   const storedWishListStr = localStorage.getItem("wish-list");
-  if(storedWishListStr) {
+  if (storedWishListStr) {
     const storedWishList = JSON.parse(storedWishListStr);
     return storedWishList;
-  }else {
+  } else {
     return [];
   }
-}
+};
 
 const addToStoredReadList = (id) => {
   const storedReadList = getStoredReadList();
@@ -33,25 +33,28 @@ const addToStoredReadList = (id) => {
     // console.log(typeof(storedReadListStr))
 
     // ideally trigger toast form the component
-    toast('this book is added to your read list')
+    toast("this book is added to your read list");
   }
 };
 
 const addToStoredWishList = (id) => {
   const storedWishList = getStoredWishList();
-  if(storedWishList.includes(id)) {
-    console.log(id, 'this already exists in the wish list');
-  }else {
+  if (storedWishList.includes(id)) {
+    console.log(id, "this already exists in the wish list");
+  } else {
     storedWishList.push(id);
     const storedWishListStr = JSON.stringify(storedWishList);
     localStorage.setItem("wish-list", storedWishListStr);
     // console.log(typeof(storedWishListStr))
 
     // ideally trigger toast form the component
-    toast('this book added to the your wish list')
+    toast("this book added to the your wish list");
   }
-}
+};
 
-
-
-export { addToStoredReadList, addToStoredWishList, getStoredReadList, getStoredWishList };
+export {
+  addToStoredReadList,
+  addToStoredWishList,
+  getStoredReadList,
+  getStoredWishList,
+};
