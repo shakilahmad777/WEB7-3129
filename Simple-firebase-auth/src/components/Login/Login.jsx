@@ -1,13 +1,14 @@
 import { GithubAuthProvider, GoogleAuthProvider, signInWithPopup, signOut } from 'firebase/auth'
 import React, { useState } from 'react'
 import { auth } from '../../firebase-init'
+import { Link } from 'react-router';
 
 export default function Login() {
     const providerGoogle = new GoogleAuthProvider();
     const providerGighub = new GithubAuthProvider();
 
     const [user, setUser] = useState(null);
-
+//  signIn With Google Account
     const handleSigninWithGoogle = () => {
         signInWithPopup(auth, providerGoogle).then(result => {
             const users = result.user;
@@ -17,7 +18,7 @@ export default function Login() {
             console.log(error)
         })
     };
-
+//  signIn With GitHub Account
     const handleSigninWithGitHub = () => {
         signInWithPopup(auth, providerGighub).then(result => {
             console.log('github',result)
@@ -51,6 +52,9 @@ export default function Login() {
                     <img src={user.photoURL} alt="" />
                 </div>
             }
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+                <Link to="/">Home</Link>
+            </div>
         </div>
     )
 }
