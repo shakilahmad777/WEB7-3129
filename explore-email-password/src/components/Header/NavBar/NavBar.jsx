@@ -16,9 +16,13 @@ export default function NavBar() {
             path: "/contact"
         },
         {
+            name: "Registration",
+            path: "/registration"
+        },
+        {
             name: "Login",
             path: "/login"
-        }
+        },
     ];
     const link = links.map((link, index) => <NavLink className={({ isActive }) =>
     isActive ? "text-blue-500 font-bold" : "text-gray-700"
@@ -50,3 +54,4 @@ export default function NavBar() {
         </div>
     )
 }
+
