@@ -37,11 +37,13 @@ export default function Login() {
         console.log('ami thik achi', email)
     }
 
+    // show password //
     const handleShowPassword = (e) => {
         e.preventDefault();
         setShowPassword(!showPassword)
     }
 
+    // email reset password //
     const handleResetPassword = () => {
         const email = emailRef.current.value;
 
