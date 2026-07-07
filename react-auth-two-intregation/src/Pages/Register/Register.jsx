@@ -1,5 +1,6 @@
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import React from 'react'
+import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import React from 'react'   
+import { auth } from '../../firebase-init';
 
 export default function Register() {
 
@@ -10,14 +11,14 @@ export default function Register() {
         const email = e.target.email.value;
         const password = e.target.password.value;
 
-        const auth = getAuth();
-            signInWithEmailAndPassword(auth, firstName, lastName, email, password)
+        createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
-                console.log(result)
-            }) 
-            .then((error) => {
-                console.log(error)
+                console.log(result.user)
             })
+            .catch((error) => {
+                console.log(error.massage)
+            })
+
         console.log('firstName :'+firstName+', lastName :'+lastName+', email :'+email+', password :'+password)
     }
     return (
