@@ -1,26 +1,51 @@
-import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import React from 'react'   
-import { auth } from '../../firebase-init';
+
+import React, { use } from 'react'
+import '../../App.css'
+import { NavLink } from 'react-router';
+import { AuthContext } from '../../Context/AuthContext';
 
 export default function Register() {
+    const {createUser} = use(AuthContext);
 
     const handleRegister = (e) => {
         e.preventDefault();
-        const firstName = e.target.firstName.value;
-        const lastName = e.target.lastName.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
 
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((result) => {
+        createUser(email, password)
+            .then(result => {
                 console.log(result.user)
             })
-            .catch((error) => {
+            .catch(error => {
                 console.log(error.massage)
             })
-
-        console.log('firstName :'+firstName+', lastName :'+lastName+', email :'+email+', password :'+password)
     }
+
+    // const handleRegister = (e) => {
+    //     e.preventDefault();
+    //     const firstName = e.target.firstName.value;
+    //     const lastName = e.target.lastName.value;
+    //     const email = e.target.email.value;
+    //     const password = e.target.password.value;
+
+    //     const regExp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
+    //     if(!regExp.test(password)) {
+    //         alert("please complate your full requarment")
+    //         return;
+    //     }
+
+    //     createUserWithEmailAndPassword(auth, email, password)
+    //     .then((result) => {
+
+    //         console.log(result.user)
+    //         })
+    //         .catch((error) => {
+    //             console.log(error.massage)
+    //         })
+
+    //     console.log('firstName :'+firstName+', lastName :'+lastName+', email :'+email+', password :'+password)
+    // }
+
     return (
         <div>
             <div className="hero bg-base-200 min-h-screen">
@@ -44,6 +69,7 @@ export default function Register() {
                                 {/* <div><a className="link link-hover">Forgot password?</a></div> */}
                                 <button className="btn btn-neutral mt-4">Login</button>
                             </fieldset>
+                            <p>Already have an account? Please <NavLink to="/login" className="text-red-300" >Login</NavLink> </p>
                         </form>
                     </div>
                 </div>
